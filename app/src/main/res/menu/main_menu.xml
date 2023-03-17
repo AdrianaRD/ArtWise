@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Incio"
+            />
+      <item android:id="@+id/nosotros"
+            android:icon="@drawable/nosotros_icon"
+            android:title="Sobre nosotros"
+          />
+        <item android:id="@+id/configuracion"
+            android:icon="@drawable/configuracion_icon"
+            android:title="Configuración"
+            />
+        <item android:id="@+id/Error"
+            android:icon="@drawable/error_icon"
+            android:title="Errores"
+            />
+        <item android:id="@+id/Ayuda"
+            android:icon="@drawable/ayuda_icon"
+           android:title="Ayuda"
+            />
+    </group>
+
+</menu>

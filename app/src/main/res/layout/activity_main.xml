@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:contentDescription="@string/app_name"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnComenzar"
+            android:layout_width="284dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="124dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:text="Comenzar"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnMicro"
+            android:layout_width="130dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="476dp"
+            android:background="@drawable/micro_icon"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:contentDescription="@string/app_name"
+            android:fontFamily="serif"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnMasInfo"
+            android:layout_width="284dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="304dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:text="Repetir"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnVelocidad"
+            android:layout_width="90dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="608dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:text="x 1"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnRepetir2"
+            android:layout_width="284dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="392dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:text="+ Información"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
