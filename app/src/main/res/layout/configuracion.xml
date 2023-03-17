@@ -114,7 +114,7 @@
         android:text="Configuración de la aplicación"
         android:textAlignment="center"
         android:textColor="#FBFAFA"
-        android:textDecorationLine="underline"
+
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/swInformación"
@@ -133,7 +133,7 @@
         android:text="Al iniciar la aplicación"
         android:textAlignment="center"
         android:textColor="#FBFAFA"
-        android:textDecorationLine="underline"
+
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
