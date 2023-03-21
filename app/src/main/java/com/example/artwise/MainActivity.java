@@ -8,6 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -73,5 +74,27 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
 
+    }
+
+    //metodo on click para los botones
+    public void onClick(View view) {
+        switch (view.getId()){
+
+            case R.id.btnComenzar:
+                Toast.makeText(MainActivity.this, "boton comenzar", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btnRepetir:
+                Toast.makeText(MainActivity.this, "boton repetir", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btnInfo:
+                Toast.makeText(MainActivity.this, "boton informacion", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btnMicro:
+                Toast.makeText(MainActivity.this, "boton micro", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btnVelocidad:
+                Toast.makeText(MainActivity.this, "boton velocidad", Toast.LENGTH_SHORT).show();
+                break;
+        }
     }
 }

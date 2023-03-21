@@ -24,6 +24,7 @@
             android:backgroundTint="#C6AF8D"
             android:baselineAligned="false"
             android:fontFamily="serif"
+            android:onClick="onClick"
             android:text="Comenzar"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,11 +42,12 @@
             android:contentDescription="@string/app_name"
             android:fontFamily="serif"
             android:textSize="16sp"
+            android:onClick="onClick"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnMasInfo"
+            android:id="@+id/btnRepetir"
             android:layout_width="284dp"
             android:layout_height="55dp"
             android:layout_marginStart="60dp"
@@ -54,6 +56,7 @@
             android:backgroundTint="#C6AF8D"
             android:baselineAligned="false"
             android:fontFamily="serif"
+            android:onClick="onClick"
             android:text="Repetir"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +72,7 @@
             android:backgroundTint="#C6AF8D"
             android:baselineAligned="false"
             android:fontFamily="serif"
+            android:onClick="onClick"
             android:text="x 1"
             android:textAllCaps="false"
             android:textSize="16sp"
@@ -76,7 +80,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnRepetir2"
+            android:id="@+id/btnInfo"
             android:layout_width="284dp"
             android:layout_height="55dp"
             android:layout_marginStart="60dp"
@@ -85,6 +89,7 @@
             android:backgroundTint="#C6AF8D"
             android:baselineAligned="false"
             android:fontFamily="serif"
+            android:onClick="onClick"
             android:text="+ Información"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
