@@ -83,10 +83,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnComenzar:
                 Toast.makeText(MainActivity.this, "boton comenzar", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.btnRepetir:
+            case R.id.btnRepe:
                 Toast.makeText(MainActivity.this, "boton repetir", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.btnInfo:
+            case R.id.btnInformacion:
                 Toast.makeText(MainActivity.this, "boton informacion", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btnMicro:
