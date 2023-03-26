@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "458640871030",
+    "firebase_url": "https://artwise-316b5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "artwise-316b5",
+    "storage_bucket": "artwise-316b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458640871030:android:315eb73612eaf70aa29957",
+        "android_client_info": {
+          "package_name": "com.example.artwise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAORec5IHO9C6CoR4w3hRpJCdrCLtXg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458640871030:android:8ff053afb2867fe4a29957",
+        "android_client_info": {
+          "package_name": "com.example.nuevaprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAORec5IHO9C6CoR4w3hRpJCdrCLtXg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458640871030:android:22b2fa7e898f5f23a29957",
+        "android_client_info": {
+          "package_name": "com.example.realtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAORec5IHO9C6CoR4w3hRpJCdrCLtXg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458640871030-pm0kji6trhuqs5q6h6k15h1sg5h26v5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
