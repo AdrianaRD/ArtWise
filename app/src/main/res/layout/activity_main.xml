@@ -31,6 +31,38 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:id="@+id/btnRepe"
+            android:layout_width="286dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="288dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:onClick="onClick"
+            android:text="Repetir"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnInformacion"
+            android:layout_width="286dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="376dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="#C6AF8D"
+            android:baselineAligned="false"
+            android:fontFamily="serif"
+            android:onClick="onClick"
+            android:text="+ Informacion"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
             android:id="@+id/btnMicro"
             android:layout_width="130dp"
             android:layout_height="108dp"
@@ -47,22 +79,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnRepetir"
-            android:layout_width="284dp"
-            android:layout_height="55dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="304dp"
-            android:background="@drawable/rectangulo"
-            android:backgroundTint="#C6AF8D"
-            android:baselineAligned="false"
-            android:fontFamily="serif"
-            android:onClick="onClick"
-            android:text="Repetir"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
             android:id="@+id/btnVelocidad"
             android:layout_width="90dp"
             android:layout_height="51dp"
@@ -75,22 +91,6 @@
             android:onClick="onClick"
             android:text="x 1"
             android:textAllCaps="false"
-            android:textSize="16sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnInfo"
-            android:layout_width="284dp"
-            android:layout_height="55dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="392dp"
-            android:background="@drawable/rectangulo"
-            android:backgroundTint="#C6AF8D"
-            android:baselineAligned="false"
-            android:fontFamily="serif"
-            android:onClick="onClick"
-            android:text="+ Información"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
